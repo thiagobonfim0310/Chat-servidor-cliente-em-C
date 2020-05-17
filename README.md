@@ -1,13 +1,34 @@
-servidor:
+# Chat
+***
+#### Sobre este projeto
+***
+O projeto é constituido de dois programas, o servidor que suporta ate 10 clientes simultaneamente este que deve ser iniciado e configurado entes dos clinetes, o cliente que se conecta ao servidor através do IP.  
 
-compilação: gcc -o serve serverTCP.c -lpthread
+#### Execução
+***
+ ###### Servidor:
 
-execução : ./serve 22000 batepapo 
+Compilação: 
+```
+gcc -o serve serverTCP.c -lpthread 
+```
 
-cliente:
+Execução : Logo após a o programa sao necessarios a porta e o nome do chat
 
-complilação: gcc -o client clientTCP.c -lpthread
+ ```
+ ./serve 22000 batepapo
+  ``` 
+###### Cliente:
 
-execução : ./client 22000 127.0.0.1 thiago
+complilação: 
+```
+gcc -o client clientTCP.c -lpthread
+```
 
-o servidor somente suporta 10 clientes. a inicialização deve ser da seguinte forma, primeiro se inicia o servidor aguarda 5 segundos e logo depois se inicia o cliente.
+execução : Logo após a o programa sao necessarios a porta e o IP do chat e o nome de usuario
+
+
+```
+./client 22000 127.0.0.1 thiago 
+```
+
