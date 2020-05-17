@@ -6,7 +6,7 @@ O projeto é constituido de dois programas, o servidor que suporta ate 10 client
 
 #### Execução
 ***
- ###### Servidor:
+ **Servidor:**
 
 Compilação: 
 ```
@@ -18,14 +18,14 @@ Execução : Logo após a o programa sao necessarios a porta e o nome do chat
  ```
  ./serve 22000 batepapo
   ``` 
-###### Cliente:
+**Cliente:**
 
-complilação: 
+Complilação: 
 ```
 gcc -o client clientTCP.c -lpthread
 ```
 
-execução : Logo após a o programa sao necessarios a porta e o IP do chat e o nome de usuario
+Execução : Logo após a o programa sao necessarios a porta e o IP do chat e o nome de usuario
 
 
 ```
