@@ -1,10 +1,10 @@
 # Chat
 ***
-#### Sobre este projeto
+### Sobre este projeto
 ***
 O projeto é constituido de dois programas, o servidor que suporta ate 10 clientes simultaneamente este que deve ser iniciado e configurado entes dos clinetes, o cliente que se conecta ao servidor através do IP.  
 
-#### Execução
+### Execução
 ***
  **Servidor:**
 
